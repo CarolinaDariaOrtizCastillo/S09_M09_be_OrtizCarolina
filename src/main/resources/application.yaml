@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=streaming_db;encrypt=false;trustServerCertificate=true
+    url: jdbc:sqlserver://sqlserver-container:1433;databaseName=streaming_db;encrypt=false;trustServerCertificate=true
     username: sa
     password: CaroRtiz12
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
